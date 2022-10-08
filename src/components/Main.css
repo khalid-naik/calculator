@@ -1,0 +1,70 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+    column-gap: 4px;
+    row-gap: 4px;
+}
+
+.grid-container > div {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.grid-container .item1{
+    color: red;
+}
+
+.grid-container .item2{
+    background-color: lightgrey;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    text-align: right;
+    padding-right: 5px;
+}
+.grid-container .item2 .res{
+    font-size: 15px;
+    color: grey;
+}
+.grid-container .buttonop{
+    color: red;
+    background-color: yellow;
+    border-color: yellow;
+    font-size: 22px;
+    font: bold;
+}
+.grid-container .buttonval{
+    font: bold;
+    background-color: yellow;
+    border-color: yellow;
+    font-size: 25px;
+}
+
+/* .grid-container .item3{
+    color: red;
+}
+.grid-container .item4{
+    color: red;
+}
+.grid-container .item5{
+    color: red;
+}
+.grid-container .item6{
+    color: red;
+}
+.grid-container .item10{
+    color: red;
+}
+.grid-container .item14{
+    color: red;
+}
+.grid-container .item18{
+    color: red;
+}
+.grid-container .item22{
+    color: red;
+} */
