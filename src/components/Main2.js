@@ -22,7 +22,7 @@ export default function Main(){
     }
 
     const deleteLast = () => {
-        if(calc == ''){
+        if(calc === ''){
             return;
         }
         const value = calc.slice(0,-1);
