@@ -9,7 +9,8 @@
 }
 
 .grid-container > div {
-    background-color: yellow;
+    /* background-color: yellow; */
+    background-color: white;
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
@@ -20,7 +21,7 @@
 }
 
 .grid-container .item2{
-    background-color: lightgrey;
+    background-color: lightgray;
     grid-column-start: 1;
     grid-column-end: 5;
     text-align: right;
@@ -32,15 +33,19 @@
 }
 .grid-container .buttonop{
     color: red;
-    background-color: yellow;
-    border-color: yellow;
+    /* background-color: yellow; */
+    /* border-color: yellow; */
+    background-color: white;
+    border-color: white;
     font-size: 22px;
     font: bold;
 }
 .grid-container .buttonval{
     font: bold;
-    background-color: yellow;
-    border-color: yellow;
+    /* background-color: yellow;
+    border-color: yellow; */
+    background-color: white;
+    border-color: white;
     font-size: 25px;
 }
 
