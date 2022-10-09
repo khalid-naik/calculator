@@ -37,9 +37,9 @@ export default function Main(){
 
     return(
         <div className='grid-container'>
-            <div className='item1'>
+            {/* <div className='item1'>
                 Result
-            </div>
+            </div> */}
             <div className='item2'>
                 {result ? <span className='res'>({result})</span>:''}
                 {calc || "0"}
