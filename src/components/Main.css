@@ -4,8 +4,8 @@
     gap: 10px;
     background-color: whitesmoke;
     padding: 10px;
-    column-gap: 4px;
-    row-gap: 4px;
+    column-gap: 1px;
+    row-gap: 1px;
 }
 
 .grid-container > div {
